@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<head>
+	    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <link rel="stylesheet" href="assets/css/vendor/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+</head>
+<body>
+	
+	<form accept-charset="utf-8" method="POST">
+
+		<select id="level">
+			<option value="usuario" selected="selected">usuario</option>
+			<option value="vendedor">vendedor</option>
+			<option value="administrador">administrador</option>
+			<option value="propietario">propietario</option>
+			<option value="almacenista">almacenista</option>
+			<option value="tecnico">tecnico</option>
+		</select>
+
+		<input type="text" id="name" placeholder="nombre de Usuario" maxlength="100" autocomplete="off" />
+		<input type="password" id="pass" placeholder="Contraseña" maxlength="100" autocomplete="off" />
+
+		<button type="button" onclick="login();">buscar</button>
+		
+	</form>
+
+		<br><br>
+
+	<form accept-charset="utf-8" method="GET">
+
+		<select id="tipo">
+			<option value="select">select</option>
+			<option value="insert">insert</option>
+			<option value="update">update</option>
+			<option value="delete">delete</option>
+			<option value="join">Inner Join</option>
+		</select>
+		<input type="text" id="tabla" placeholder="nombre de la tabla" maxlength="100" autocomplete="off" value="productos" />
+		<input type="text" id="datos" placeholder="datos separados por coma" maxlength="100" autocomplete="off" />
+		<input type="text" id="condicion" placeholder="condicion" maxlength="100" autocomplete="off" value="1" />
+		<input type="text" id="apendice" placeholder="apendice" maxlength="100" autocomplete="off" />
+
+		<button type="button" onclick="buscar();">buscar</button>
+
+	</form>
+
+
+
+
+	<div id="resultadoLogin"></div>
+	<div id="resultadoBusqueda"></div>
+	<div id="resultadoBusqueda2"></div>
+
+
+
+
+	<script type="text/javascript" src="assets/js/vendor/jquery/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/js/vendor/js-cookie/js-cookie.min.js"></script>
+	<script type="text/javascript" src="assets/js/vendor/bootstrap/bootstrap.min.js"></script>
+	<script type="text/javascript" src="assets/js/vendor/popper/popper.min.js"></script>
+	<script type="text/javascript" src="assets/js/helpers/lego.js"></script>
+	<script type="text/javascript" src="assets/js/controller/api_tester.controller.js"></script>
+
+</body>

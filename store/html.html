@@ -1,0 +1,50 @@
+<div id="content">
+
+<script type="text/javascript" src="assets/js/vendor/jquery/jquery.min.js"></script>
+  <script type="text/javascript" src="assets/js/vendor/js-cookie/js-cookie.min.js"></script>
+  <script type="text/javascript" src="assets/js/vendor/bootstrap/bootstrap.min.js"></script>
+  <script type="text/javascript" src="assets/js/vendor/popper/popper.min.js"></script>
+  <script type="text/javascript" src="assets/js/helpers/lego.js"></script>
+  <script type="text/javascript" src="assets/js/controller/index.controller.js"></script>
+<script type="text/javascript">
+ 
+
+  
+  var id = "8";
+  var cant = "1";
+  var index = "producto";
+
+  $("#content").data(index, {id: id, cant: cant});
+
+  var save = $("#content").data(index);
+
+  
+
+
+    if (save == undefined) {
+
+      $("#content").data(index,{id: id, cant: cant});
+
+    } 
+
+    else 
+    {
+
+      save = $("#content").data(index);
+
+      save["cant"] =  parseInt(save["cant"]) + parseInt(cant);
+
+      $("#content").data(index, save);
+
+      
+    }
+
+    console.log($("#content").data(index));
+    
+
+</script>
+
+
+
+
+

@@ -1,0 +1,83 @@
+main
+
+[
+  {
+    "conexion" : "",
+    "resolucion" : "",
+    "resolucion_secundaria" : "",
+    "canales" : "",
+    "numero_de_discos" : "",
+    "lente" : "",
+    "optica" : "",
+    "infrarrojo" : "",
+    "formato" : "",
+    "resistencia" : "",
+    "fabricacion" : "",
+    "garantia" : "",
+    "voltaje" : "",
+    "amperaje" : "",
+    "conector" : "",
+    "porcentaje_de_cobre" : "",
+    "numero_de_camaras" : "",
+    "numero_de_canales" : "",
+    "disco_duro" : "",
+    "metros_de_cable" : ""
+  }
+]
+
+camara turbohd 720p DOMO
+[{"conexion" : "TURBOHD","resolucion" : "1MPX","lente" : "2.8","optica" : "ESTANDAR","infrarrojo" : "20M","formato" : "DOMO","resistencia" : "INTERIOR","fabricacion" : "PLASTICO","garantia" : "12 MESES","conector" : "BNC"}]
+
+camara turbohd 720p BALA
+[{ "conexion" : "TURBOHD","resolucion" : "1MPX","lente" : "2.8","optica" : "ESTANDAR","infrarrojo" : "20M","formato" : "BALA","resistencia" : "EXTERIOR","fabricacion" : "PLASTICO","garantia" : "12 MESES","conector" : "BNC"}]
+
+camara turbohd 720p BALA METALICA
+[{ "conexion" : "TURBOHD","resolucion" : "1MPX","lente" : "2.8","optica" : "ESTANDAR","infrarrojo" : "EXIR","formato" : "BALA","resistencia" : "EXTERIOR","fabricacion" : "METALICO","garantia" : "12 MESES","conector" : "BNC"}]
+
+camara turbohd 720p BALA VARIFOCAL
+[{"conexion" : "TURBOHD","resolucion" : "1MPX","lente" : "2.8","optica" : "VARIFOCAL","infrarrojo" : "20M","formato" : "BALA","resistencia" : "EXTERIOR","fabricacion" : "PLASTICO","garantia" : "12 MESES","conector" : "BNC"}]
+
+camara turbohd 1080P DOMO
+[{"conexion" : "TURBOHD","resolucion" : "2MPX","lente" : "2.8","optica" : "ESTANDAR","infrarrojo" : "20M","formato" : "DOMO","resistencia" : "INTERIOR","fabricacion" : "PLASTICO","garantia" : "12 MESES","conector" : "BNC"}]
+
+camara turbohd 1080P BALA
+[{"conexion" : "TURBOHD","resolucion" : "2MPX","lente" : "2.8","optica" : "ESTANDAR","infrarrojo" : "20M","formato" : "BALA","resistencia" : "EXTERIOR","fabricacion" : "PLASTICO","garantia" : "12 MESES","conector" : "BNC"}]
+
+camara turbohd 1080P BALA VARIFOCAL
+[{"conexion" : "TURBOHD","resolucion" : "2MPX","lente" : "2.8","optica" : "VARIFOCAL","infrarrojo" : "20M","formato" : "BALA","resistencia" : "EXTERIOR","fabricacion" : "PLASTICO","garantia" : "12 MESES","conector" : "BNC"}]
+
+
+dvr 4ch 720p
+
+[{"conexion" : "TURBOHD","resolucion" : "1MPX","resolucion_secundaria" : "2MPX","canales" : "4","numero_de_discos" : "1","garantia" : "12 meses"}]
+
+dvr 4ch 1080p
+
+[{"conexion" : "TURBOHD","resolucion" : "2MPX","resolucion_secundaria" : "3MPX","canales" : "4","numero_de_discos" : "1","garantia" : "12 meses}]
+
+dvr 8ch 720p
+
+[{"conexion" : "TURBOHD" "resolucion" : "1MPX","resolucion_secundaria" : "2MPX","canales" : "8","numero_de_discos" : "1","garantia" : "12 meses"}]
+
+dvr 8ch 1080p
+
+[{"conexion" : "TURBOHD","resolucion" : "2MPX","resolucion_secundaria" : "3MPX","canales" : "8","numero_de_discos" : "1","garantia" : "12 meses"}]
+
+dvr 16ch 720p
+
+[{"conexion" : "TURBOHD" "resolucion" : "1MPX","resolucion_secundaria" : "2MPX","canales" : "8","numero_de_discos" : "1","garantia" : "12 meses"}]
+
+dvr 16ch 1080p
+
+[{"conexion" : "TURBOHD","resolucion" : "2MPX","resolucion_secundaria" : "3MPX","canales" : "16","numero_de_discos" : "1","garantia" : "12 meses"}]
+
+kit 4ch 1mpx 1tb
+[{"conexion" : "TURBOHD","resolucion" : "1MPX","resolucion_secundaria" : "2MPX","canales" : "4","numero_de_discos" : "1","lente" : "2.8mm","optica" : "ESTANDAR","infrarrojo" : "20m","formato" : "DOMO O BALA","resistencia" : "INTERIOR O EXTERIOR","fabricacion" : "PLASTICO","garantia" : "12 meses","numero_de_camaras" : "4","disco_duro" : "1TB","metros_de_cable" : "40"}]
+
+
+kit 8ch 1mpx 2tb
+[{"conexion" : "TURBOHD","resolucion" : "1MPX","resolucion_secundaria" : "2MPX","canales" : "8","numero_de_discos" : "1","lente" : "2.8mm","optica" : "ESTANDAR","infrarrojo" : "20m","formato" : "DOMO O BALA","resistencia" : "INTERIOR O EXTERIOR","fabricacion" : "PLASTICO","garantia" : "12 meses","numero_de_camaras" : "8","disco_duro" : "2TB","metros_de_cable" : "80"}]
+
+
+kit 16ch 1mpx 2tb
+[{"conexion" : "TURBOHD","resolucion" : "1MPX","resolucion_secundaria" : "2MPX","canales" : "16","numero_de_discos" : "1","lente" : "2.8mm","optica" : "ESTANDAR","infrarrojo" : "20m","formato" : "DOMO O BALA","resistencia" : "INTERIOR O EXTERIOR","fabricacion" : "PLASTICO","garantia" : "12 meses","numero_de_camaras" : "16","disco_duro" : "2TB","metros_de_cable" : "40"}]
